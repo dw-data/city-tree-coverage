@@ -1,6 +1,4 @@
-# Methodology write-up
-
-# How was this made?
+## How was this made?
 
 The methodology of the project is summarized below. 
 
@@ -12,7 +10,7 @@ From a technical point of view, most of the development was done using Google Ea
 
 Additionally, you can find any files and source code related to data visualization at the `viz` directory.
 
-## 1. Data collection and preparation
+### 1. Data collection and preparation
 
 Since its inception, the project aimed to compare the tree coverage in cities spanning the whole globe, which creates some methodological challenges. 
 
@@ -20,7 +18,7 @@ Environmental agencies, such as Europe’s EEA, often publish [reports on the su
 
 One solution was to look for a measure of tree cover that would cover the whole globe, and that would allow for direct city comparisons, at least to some extent. The datasets selected, both for detecting tree coverage and city outlines, were preferred because of their global scope.
 
-### 1.1 Tee coverage at a global scale
+#### 1.1 Tee coverage at a global scale
 
 We used two datasets that use satellite imagery and machine learning techniques to detect tree coverage, as well as their canopy height, throughout the entire Earth. They were used to locate places which were covered by trees taller than 1m.
 
@@ -40,23 +38,40 @@ The image below illustrates the process:
 
 ![tree-cover.png](./readme-images/tree-cover.png)
 
-### 1.2 City outlines
+#### 1.2 City outlines
 
-What are the limits of, say, Dhaka (Bangladesh)? Depending on the source, this might change a lot. According to the Bangladeshi government, its district spans even to the banks of the Padma river, kilometers south of the dense city center that most people associate with the name “Dhaka”.
+After getting data for tree coverage spanning the entire world, we needed to do something similar for cities.
 
-Alternatively, the city of Buenos Aires, officially, only includes the area surrounded by the General Paz and 27 de Febrero avenues, home to 3 million people. It excludes the entire conurbated area surrounding it, which houses another 10 million people, and makes up what is known as the Greater Buenos Aires area.
+Since we wanted to compute, in the end, the total area covered by trees in each city, we couldn’t rely on official administrative divisions, as they often include swathes of rural or semi-rural land. 
 
-To avoid such disparate definitions, which often depend more on the internal workings of local governments than on the people living there, we are using city boundaries derived from satellite observations.
+Despite officially belonging to a municipality, those aren’t really urban areas, and could distort the results if the non-developed regions were too large – something which happens, for example, in Brazil, where sparsely populated cities have administrative rights over extensive chunks of forest.
 
-They come from the Urban Center Database, published by researchers at Copernicus, the European Union satellite system. It relies on satellite imagery to estimate the population density on the ground, at any point of the Earth’s surface. Then, it connects all the observed areas that have a minimum of 1,500 inhabitants or a significant built-up area into “urban centers”. 
+Administrative division also don’t always reflect the experience of living in a city. 
 
-They cover entire extents of urban development, regardless of local administrative divisions. They can be thought of as “metropolitan areas”,  comprising the entire area where there’s a continuos high density of people or buildings.
+For example, New York, in the United States, is officially divided into five different counties, despite being a single entity governed by one mayor. 
 
-### 1.3 Population data
+Similarly, according to the Bangladeshi government, the Dhaka district spans even to the sparsely populated banks of the Padma river, kilometers south of the dense city center that most people associate with the capital.
 
-## 2. Data analysis
+Alternatively, the city of Buenos Aires, officially, only includes the area surrounded by the General Paz and 27 de Febrero avenues, home to 3 million people. It excludes the large urban area surrounding it, which houses another 10 million people, and makes up what is known as the Greater Buenos Aires area.
 
-### 2.1 Computing the tree coverage by city
+Situations like this occur in countries all over the globe. To avoid such problems, we decided on using city boundaries that were determined by satellite observations as well. They came from the [Urban Center Database](https://www.nature.com/articles/s41597-023-02691-1), published by researchers at Copernicus, the European Union satellite system. 
 
-### 2.2 Computing how many people live near trees in each city
+It relies on satellite imagery and statistical modelling to estimate the population living on 1km² squares at any point of the Earth’s surface. Then, it classify each of this square into categories ranging from *“Very low density rural”* to *“Urban centre.”* A city is nothing more than a collection of all the adjacent squares that are considered urban, with some additional conditions of minimum population and built-up area.
+
+Let’s look at an image example, showing the urban centers around Paris:
+
+![city-outlines.png](./readme-images/city-outlines.png)
+
+
+Notice how, in practice, this definition covers entire extents of urban development, regardless of local administrative divisions. They can be thought of as “metropolitan areas”,  comprising the entire area where there’s a continuously high density of people or buildings. For example, Paris would include even other close-by communes such as Poissy and Versailles.
+
+This could even extend beyond national borders. This is the case of the cities of Ciudad Juarez and El Paso, in the Mexico-US border, for example. The same happens in the border between Singapore and Malaysia, where Singapore City and Johor Bahru make up a single urban stretch
+
+#### 1.3 Population data
+
+### 2. Data analysis
+
+#### 2.1 Computing the tree coverage by city
+
+#### 2.2 Computing how many people live near trees in each city
 
