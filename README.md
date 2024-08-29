@@ -85,4 +85,4 @@ We also estimated how many people were living in each hexagon using another data
 
 With this information, we could compute how many people were living in hexagons with a certain range of tree coverage in any given city. For example, in Dhaka (Bangladesh), one quarter of the population lives in hexagons with a tree coverage below 2%.
 
-![hexagons.png](../readme-images/hexagon.png)
+![hexagons.png](./readme-images/hexagon.png)
