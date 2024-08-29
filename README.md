@@ -65,7 +65,7 @@ Let’s look at an image example, showing the urban centers around Paris:
 
 Notice how, in practice, this definition covers entire extents of urban development, regardless of local administrative divisions. They can be thought of as “metropolitan areas”,  comprising the entire area where there’s a continuously high density of people or buildings. For example, Paris would include even other close-by communes such as Poissy and Versailles.
 
-This could even extend beyond national borders. This is the case of the cities of Ciudad Juarez and El Paso, in the Mexico-US border, for example. The same happens in the border between Singapore and Malaysia, where Singapore City and Johor Bahru make up a single urban stretch
+They can even extend beyond national borders. That is the case of the cities of Ciudad Juarez and El Paso, in the Mexico-US border, for example. The same happens in the border between Singapore and Malaysia, where Singapore City and Johor Bahru make up a single urban stretch.
 
 #### 1.3 Population data
 
