@@ -38,7 +38,7 @@ To reduce the risk of false positives, we decided to combine both of them. We ch
 
 The image below illustrates the process:
 
-![tree-cover.png](Methodology%20write-up%20c88f3bdc8df240d9b8bab1ddd91f93f6/tree-cover.png)
+![tree-cover.png](./readme-images/tree-cover.png)
 
 ### 1.2 City outlines
 
