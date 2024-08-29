@@ -67,11 +67,22 @@ Notice how, in practice, this definition covers entire extents of urban developm
 
 They can even extend beyond national borders. That is the case of the cities of Ciudad Juarez and El Paso, in the Mexico-US border, for example. The same happens in the border between Singapore and Malaysia, where Singapore City and Johor Bahru make up a single urban stretch.
 
-#### 1.3 Population data
+## 2. Data analysis
 
-### 2. Data analysis
+With the tree data and the city outlines defined, we could go into the data analysis. We decided to perform it in both levels: at first, calculating the tree coverage for entire cities; then, looking at the tree distribution within a single city and its relation with population density.
 
-#### 2.1 Computing the tree coverage by city
+### 2.1 Computing the tree coverage by city
 
-#### 2.2 Computing how many people live near trees in each city
+The first step was straightforward. We simply computed the area taken by all trees that exist within the city boundaries and divided it by the area of the city.
 
+### 2.2 Computing how many people live near trees in each city
+
+For the second step, though, we had to perform some extra tasks.
+
+At first, we divided each city outline in hexagons of the same size, with an area of around 800m² each. Then, we computed the area covered by trees within each hexagon.
+
+We also estimated how many people were living in each hexagon using another dataset by the Copernicus team: the [GHSL Population Grid](https://human-settlement.emergency.copernicus.eu/download.php?ds=pop), which uses satellite imagery in a similar fashion to the Urban Center Database mentioned above. Instead of creating city outlines, however, it estimates how many people live in 100m² squares covering the entire globe. By overlaying or hexagons and this population grid, we could also know how many were living on it.
+
+With this information, we could compute how many people were living in hexagons with a certain range of tree coverage in any given city. For example, in Dhaka (Bangladesh), one quarter of the population lives in hexagons with a tree coverage below 2%.
+
+![hexagons.png](../readme-images/hexagon.png)
