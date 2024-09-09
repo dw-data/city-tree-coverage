@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Population Histograms by Tree Coverage</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .chart-container {
+            border: 1px solid #ccc; /* Adds a border around each chart container for clarity */
+            margin: 5px;
+            padding: 5px;
+            text-align: center;
+        }
+        .featured {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .tooltip {
+            position: absolute;
+            text-align: center;
+            padding: 8px;
+            font: 12px sans-serif;
+            background: white;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            pointer-events: none;
+            opacity: 0;
+        }
+        input, select {
+            margin: 10px;
+            padding: 5px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <select id="continent-filter">
+        <option value="">All Continents</option>
+    </select>
+    <input type="text" id="city-search" placeholder="Search for a city...">
+</div>
+<div class="featured" id="featured-chart"></div>
+<div class="container" id="all-charts"></div>
+<div class="tooltip" id="tooltip"></div>
+
+<script>
+d3.csv("joyplot-data.csv").then(data => {
+
+    data.forEach(d => {
+        // Assume bins are in the format "[lower, upper)"
+        const binRange = d.tr_pct_bin.split(",")[1]; // Gets the part like '20)'
+        d.binUpperLimit = parseFloat(binRange.slice(0, -1)); // Convert to integer after removing the closing parenthesis
+    });
+
+    const margin = {top: 20, right: 20, bottom: 30, left: 40};
+    const featuredWidth = 300 - margin.left - margin.right;
+    const featuredHeight = 240 - margin.top - margin.bottom;
+    const width = 250 - margin.left - margin.right;
+    const height = 200 - margin.top - margin.bottom;
+    const tooltip = d3.select("#tooltip");
+
+    // Extract all categories for the x-axis domain from the data
+    const allCategories = Array.from(new Set(data.map(d => d.tr_pct_bin))).sort();
+    const continents = Array.from(new Set(data.map(d => d.continent)));
+
+    // Populate continent filter options
+    const continentSelect = d3.select('#continent-filter');
+    continents.forEach(continent => {
+        continentSelect.append('option').text(continent).attr('value', continent);
+    });
+
+    // Group data by continent and city
+    const continentCities = d3.groups(data, d => d.continent, d => d.UC_NM_MN);
+
+    // Calculate the tallest bin for each city
+    continentCities.forEach(([continent, cities]) => {
+        cities.forEach(city => {
+            const cityData = city[1]; // city[1] contains all records for that city
+
+            const maxIndex = d3.greatestIndex(cityData, (a, b) => a.pop_ft_pct - b.pop_ft_pct);
+            const max = d3.greatest(cityData, (a,b) => a.pop_ft_pct - b.pop_ft_pct);
+
+            city.tallestBinUpperLimit = cityData[maxIndex].binUpperLimit;
+            city.tallestBinValue = +max.pop_ft_pct;
+        });
+    });
+
+    // Create a color scale based on continent
+    const color = d3.scaleOrdinal()
+        .domain(data.map(d => d.continent))
+        .range(d3.schemeTableau10);
+
+    function drawCharts(filteredData) {
+        const container = d3.select("#all-charts").html(""); // Clear existing charts
+
+        // Sort cities by the bin of the highest bar
+        filteredData.forEach(([continent, cities]) => {
+        
+            cities.sort((a, b) => {
+                const primary = b.tallestBinUpperLimit - a.tallestBinUpperLimit;
+                if (primary !== 0) return primary;
+                return a.tallestBinValue - b.tallestBinValue; // Smallest tallestBinValue first
+            });
+            
+            cities.forEach(([city, records]) => {
+
+                console.log(records);
+
+                const chartDiv = container.append("div").attr("class", "chart-container");
+                chartDiv.append("p").text(`${city} (${records[0].CTR_MN_ISO})`);
+
+                const svg = chartDiv.append("svg")
+                    .attr("width", width + margin.left + margin.right)
+                    .attr("height", height + margin.top + margin.bottom)
+                    .append("g")
+                    .attr("transform", `translate(${margin.left}, ${margin.top})`);
+
+                const x = d3.scaleBand()
+                    .range([0, width])
+                    .domain(allCategories)
+                    .padding(0.1);
+
+                const y = d3.scaleLinear()
+                    .range([height, 0])
+                    .domain([0, 1]);
+
+                // Add bars with tooltip
+                svg.selectAll(".bar")
+                    .data(records)
+                    .enter().append("rect")
+                    .attr("class", "bar")
+                    .attr("x", d => x(d.tr_pct_bin))
+                    .attr("width", x.bandwidth())
+                    .attr("y", d => y(d.pop_ft_pct))
+                    .attr("height", d => height - y(d.pop_ft_pct))
+                    .attr("fill", color(continent))
+                    .on("mouseover", (event, d) => {
+                        tooltip.style("opacity", 1);
+                        tooltip.html(`Tree Coverage: ${d.tr_pct_bin}<br>Population Share: ${(d.pop_ft_pct * 100).toFixed(2)}%`)
+                               .style("left", (event.pageX + 10) + "px")
+                               .style("top", (event.pageY - 28) + "px");
+                    })
+                    .on("mouseout", () => tooltip.style("opacity", 0));
+            });
+        });
+    }
+
+    // Initial draw
+    drawCharts(continentCities);
+    
+    // Filtering mechanism
+    document.getElementById('continent-filter').addEventListener('change', filterCharts);
+    document.getElementById('city-search').addEventListener('input', filterCharts);
+
+    function filterCharts() {
+        const continent = document.getElementById('continent-filter').value;
+        const search = document.getElementById('city-search').value.toLowerCase();
+        const filtered = continent ? continentCities.filter(d => d[0] === continent) : continentCities;
+        const furtherFiltered = filtered.map(d => [d[0], d[1].filter(city => city[0].toLowerCase().includes(search))]);
+        drawCharts(furtherFiltered);
+    }
+});
+</script>
+</body>
+</html>
