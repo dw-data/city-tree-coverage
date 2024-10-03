@@ -1,0 +1,42 @@
+city_name,UC_NM_MN,CTR_MN_NM,pop_ft_pct,E_BM_NM_LST,E_KG_NM_LST,upper,lower
+"Ankara, Turkey",Ankara,Turkey,0.2640168670603116,Temperate Broadleaf and Mixed Forests,"Mild temperate with dry summer, and  Hot summer",4,2
+"Nicosia, Cyprus",Nicosia,Cyprus,0.3232304192676265,"Mediterranean Forests, Woodlands, and Scrub","Mild temperate with dry summer, and  Hot summer",4,2
+"Beirut, Lebanon",Beirut,Lebanon,0.24490766422848143,"Mediterranean Forests, Woodlands, and Scrub","Mild temperate with dry summer, and  Hot summer",6,4
+"Damascus, Syria",Damascus,Syria,0.7622255998484265,Deserts and Xeric Shrublands,"Steppe (semi-arid), and  Cold arid",2,0
+"Amman, Jordan",Amman,Jordan,0.8880393315436971,"Mediterranean Forests, Woodlands, and Scrub","Steppe (semi-arid), and  Cold arid",2,0
+"Baghdad, Iraq",Baghdad,Iraq,0.818284163863449,Deserts and Xeric Shrublands,"Desert (arid), and  Hot arid",2,0
+"Baku, Azerbaijan",Baku,Azerbaijan,0.482748053987429,Deserts and Xeric Shrublands,"Steppe (semi-arid), and  Cold arid",2,0
+"Sana'a, Yemen",Sana'a,Yemen,0.8934675698016029,Deserts and Xeric Shrublands,"Desert (arid), and  Cold arid",2,0
+"Riyadh, Saudi Arabia",Riyadh,Saudi Arabia,0.9503294877964009,Deserts and Xeric Shrublands,"Desert (arid), and  Hot arid",2,0
+"Tehran, Iran",Tehran,Iran,0.6553134743371726,Deserts and Xeric Shrublands,"Steppe (semi-arid), and  Cold arid",2,0
+"Dubai, United Arab Emirates",Dubai,United Arab Emirates,0.9194887547552278,Deserts and Xeric Shrublands,"Desert (arid), and  Hot arid",2,0
+"Nur-Sultan, Kazakhstan",Nur-Sultan,Kazakhstan,0.21107598482438578,"Temperate Grasslands, Savannas, and Shrublands","Snow, fully humid, and  Warm summer",4,2
+"Tashkent, Uzbekistan",Tashkent,Uzbekistan,0.3895462896665151,"Temperate Grasslands, Savannas, and Shrublands","Mild temperate with dry summer, and  Hot summer",2,0
+"Kabul, Afghanistan",Kabul,Afghanistan,0.5619348930233355,Deserts and Xeric Shrublands,"Steppe (semi-arid), and  Cold arid",2,0
+"Karachi, Pakistan",Karachi,Pakistan,0.8011443690023947,Mangroves,"Desert (arid), and  Hot arid",2,0
+"Mumbai, India",Mumbai,India,0.07120462941354207,Tropical and Subtropical Moist Broadleaf Forests,Tropical monsoon,22,20
+"Delhi [New Delhi], India",Delhi [New Delhi],India,0.25485759804772723,Tropical and Subtropical Moist Broadleaf Forests,"Steppe (semi-arid), and  Hot arid",2,0
+"Colombo, Sri Lanka",Colombo,Sri Lanka,0.051525455187495045,Tropical and Subtropical Moist Broadleaf Forests,Tropical rain forest,40,38
+"Dhaka, Bangladesh",Dhaka,Bangladesh,0.24512917127220366,Tropical and Subtropical Moist Broadleaf Forests,Tropical savannah with dry winter,2,0
+"Mandalay, Myanmar",Mandalay,Myanmar,0.11857618349400957,Tropical and Subtropical Moist Broadleaf Forests,"Steppe (semi-arid), and  Hot arid",8,6
+"Yangon, Myanmar",Yangon,Myanmar,0.09060051709255602,Tropical and Subtropical Moist Broadleaf Forests,Tropical monsoon,22,20
+"Xi'an, China",Xi'an,China,0.2536722546524148,Temperate Broadleaf and Mixed Forests,"Steppe (semi-arid), and  Cold arid",4,2
+"Chongqing, China",Chongqing,China,0.09398319919618582,Temperate Broadleaf and Mixed Forests,"Mild temperate, fully humid, and  Hot summer",16,14
+"Beijing, China",Beijing,China,0.11161919073556167,Temperate Broadleaf and Mixed Forests,"Steppe (semi-arid), and  Cold arid",12,10
+"Bangkok, Thailand",Bangkok,Thailand,0.16466310096098813,Tropical and Subtropical Moist Broadleaf Forests,Tropical savannah with dry winter,10,8
+"Hanoi, Vietnam",Hanoi,Vietnam,0.209611307070939,Tropical and Subtropical Moist Broadleaf Forests,"Mild temperate with dry winter, and  Hot summer",6,4
+"Kuala Lumpur, Malaysia",Kuala Lumpur,Malaysia,0.11575022986753727,Tropical and Subtropical Moist Broadleaf Forests,Tropical rain forest,8,6
+"Singapore, Singapore",Singapore,Singapore,0.13074650247436492,Tropical and Subtropical Moist Broadleaf Forests,Tropical rain forest,12,10
+"Jakarta, Indonesia",Jakarta,Indonesia,0.1084079526149355,Tropical and Subtropical Moist Broadleaf Forests,Tropical rain forest,8,6
+"Guangzhou, China",Guangzhou,China,0.1624539002822603,Tropical and Subtropical Moist Broadleaf Forests,"Mild temperate with dry winter, and  Hot summer",4,2
+"Pyongyang, North Korea",Pyongyang,North Korea,0.5453103455299029,Temperate Broadleaf and Mixed Forests,"Snow with dry winter, and  Hot summer",2,0
+"Zhuhai, China",Zhuhai,China,0.1769522716054958,Tropical and Subtropical Moist Broadleaf Forests,"Mild temperate with dry winter, and  Hot summer",4,2
+"Hong Kong, China",Hong Kong,China,0.08664634840670672,Tropical and Subtropical Moist Broadleaf Forests,"Mild temperate with dry winter, and  Hot summer",12,10
+"Seoul, South Korea",Seoul,South Korea,0.26215015105273753,Temperate Broadleaf and Mixed Forests,"Mild temperate with dry winter, and  Hot summer",2,0
+"Shanghai, China",Shanghai,China,0.1705633265650686,Temperate Broadleaf and Mixed Forests,"Mild temperate, fully humid, and  Hot summer",6,4
+"Busan, South Korea",Busan,South Korea,0.25150147077160384,Temperate Broadleaf and Mixed Forests,"Mild temperate with dry winter, and  Hot summer",2,0
+"Hiroshima, Japan",Hiroshima,Japan,0.31862178087405674,Temperate Broadleaf and Mixed Forests,"Mild temperate, fully humid, and  Hot summer",2,0
+"Quezon City [Manila], Philippines",Quezon City [Manila],Philippines,0.11892226747416428,Tropical and Subtropical Moist Broadleaf Forests,Tropical monsoon,2,0
+"Osaka [Kyoto], Japan",Osaka [Kyoto],Japan,0.5664822144500107,Temperate Broadleaf and Mixed Forests,"Mild temperate, fully humid, and  Hot summer",2,0
+"Tokyo, Japan",Tokyo,Japan,0.3666942949809256,Temperate Broadleaf and Mixed Forests,"Mild temperate, fully humid, and  Hot summer",2,0
+"Cebu City, Philippines",Cebu City,Philippines,0.07938580818874254,Tropical and Subtropical Moist Broadleaf Forests,Tropical rain forest,10,8

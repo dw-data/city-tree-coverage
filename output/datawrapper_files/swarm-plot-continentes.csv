@@ -1,0 +1,133 @@
+city_name,UC_NM_MN,CTR_MN_NM,pop_ft_pct,upper,lower,continent,order,position
+"Kinshasa, Democratic Republic of the Congo",Kinshasa,Democratic Republic of the Congo,0.14192965880083092,6,4,Africa,0,-0.5
+"Dakar, Senegal",Dakar,Senegal,0.9549796207034019,2,0,Africa,0,-0.5
+"Conakry, Guinea",Conakry,Guinea,0.5036074589734153,2,0,Africa,0,-0.43333333333333335
+"Casablanca, Morocco",Casablanca,Morocco,0.8638991422480617,2,0,Africa,0,-0.3666666666666667
+"Accra, Ghana",Accra,Ghana,0.7338167159446046,2,0,Africa,0,-0.3
+"Algiers, Algeria",Algiers,Algeria,0.31029224517405196,2,0,Africa,0,-0.23333333333333334
+"Porto-Novo, Benin",Porto-Novo,Benin,0.3233383942419267,2,0,Africa,0,-0.16666666666666669
+"Lagos, Nigeria",Lagos,Nigeria,0.8689621861636232,2,0,Africa,0,-0.09999999999999998
+"Tripoli, Libya",Tripoli,Libya,0.5088601471237036,2,0,Africa,0,-0.033333333333333326
+"Luanda, Angola",Luanda,Angola,0.6630758259746189,2,0,Africa,0,0.033333333333333326
+"Johannesburg, South Africa",Johannesburg,South Africa,0.5477667881996691,2,0,Africa,0,0.09999999999999998
+"N'Djamena, Chad",N'Djamena,Chad,0.7587716175397979,2,0,Africa,0,0.16666666666666663
+"Durban, South Africa",Durban,South Africa,0.11011030138410212,12,10,Africa,0,0.0
+"Cairo, Egypt",Cairo,Egypt,0.8322759678745563,2,0,Africa,0,0.23333333333333328
+"Kigali, Rwanda",Kigali,Rwanda,0.1410688583674988,6,4,Africa,0,0.0
+"Maputo, Mozambique",Maputo,Mozambique,0.3238710330728605,2,0,Africa,0,0.30000000000000004
+"Juba, South Sudan",Juba,South Sudan,0.3605882308483788,4,2,Africa,0,0.0
+"Khartoum, Sudan",Khartoum,Sudan,0.963118306660067,2,0,Africa,0,0.3666666666666667
+"Kampala, Uganda",Kampala,Uganda,0.14058751940491723,16,14,Africa,0,0.0
+"Dodoma, Tanzania",Dodoma,Tanzania,0.33405296063718026,2,0,Africa,0,0.43333333333333335
+"Nairobi, Kenya",Nairobi,Kenya,0.24479767932637198,6,4,Africa,0,0.5
+"Addis Ababa, Ethiopia",Addis Ababa,Ethiopia,0.21173510882650354,8,6,Africa,0,0.0
+"Lusaka, Zambia",Lusaka,Zambia,0.44371891240696065,2,0,Africa,0,0.5
+"Asuncion, Paraguay",Asuncion,Paraguay,0.10853802344032512,28,26,Americas,2,2.0
+"São Paulo, Brazil",São Paulo,Brazil,0.21527511182048767,4,2,Americas,2,1.5
+"Montevideo, Uruguay",Montevideo,Uruguay,0.22277161611466076,4,2,Americas,2,1.6666666666666665
+"Buenos Aires, Argentina",Buenos Aires,Argentina,0.19923100728393944,4,2,Americas,2,1.8333333333333333
+"Portland, United States",Portland,United States,0.09513436217257344,26,24,Americas,2,2.0
+"San Jose, United States",San Jose,United States,0.1608045283824669,6,4,Americas,2,1.5
+"New York, United States",New York,United States,0.09313487206950477,4,2,Americas,2,2.0
+"Phoenix, United States",Phoenix,United States,0.3809790087439195,4,2,Americas,2,2.1666666666666665
+"Ciudad Juárez, Mexico",Ciudad Juárez,Mexico,0.7779646043112459,2,0,Americas,2,1.5
+"Anchorage, United States",Anchorage,United States,0.13274142523624724,24,22,Americas,2,1.5
+"Guatemala City, Guatemala",Guatemala City,Guatemala,0.08317500857064151,8,6,Americas,2,1.5
+"San Salvador, El Salvador",San Salvador,El Salvador,0.08466251130286033,12,10,Americas,2,1.5
+"Dallas, United States",Dallas,United States,0.06445112160623706,22,20,Americas,2,2.0
+"Tegucigalpa, Honduras",Tegucigalpa,Honduras,0.18153052551146653,8,6,Americas,2,2.5
+"Managua, Nicaragua",Managua,Nicaragua,0.1312750422790651,12,10,Americas,2,1.75
+"San José, Costa Rica",San José,Costa Rica,0.10468253316051965,12,10,Americas,2,2.0
+"New Orleans, United States",New Orleans,United States,0.14907753118549477,12,10,Americas,2,2.25
+"Boston, United States",Boston,United States,0.07062690681738211,14,12,Americas,2,2.0
+"Quito, Ecuador",Quito,Ecuador,0.32793139581392533,2,0,Americas,2,1.6666666666666665
+"Havana, Cuba",Havana,Cuba,0.11562203923669077,12,10,Americas,2,2.5
+"Lima, Peru",Lima,Peru,0.7979209525651735,2,0,Americas,2,1.8333333333333333
+"Nashville, United States",Nashville,United States,0.08216279167775041,38,36,Americas,2,2.0
+"Panama City, Panama",Panama City,Panama,0.15165713439002365,4,2,Americas,2,2.333333333333333
+"Santo Domingo, Dominican Republic",Santo Domingo,Dominican Republic,0.1514915491650886,4,2,Americas,2,2.5
+"Washington D.C., United States",Washington D.C.,United States,0.050219816549278366,32,30,Americas,2,2.0
+"Caracas, Venezuela",Caracas,Venezuela,0.13201636528458754,6,4,Americas,2,2.5
+"Santiago, Chile",Santiago,Chile,0.5333525786857777,2,0,Americas,2,2.0
+"Detroit, United States",Detroit,United States,0.06959505287508333,20,18,Americas,2,2.0
+"Bogota, Colombia",Bogota,Colombia,0.5819189733120214,2,0,Americas,2,2.1666666666666665
+"Port-au-Prince, Haiti",Port-au-Prince,Haiti,0.18666024024145425,2,0,Americas,2,2.333333333333333
+"El Alto [La Paz], Bolivia",El Alto [La Paz],Bolivia,0.5124369361244356,2,0,Americas,2,2.5
+"Indianapolis, United States",Indianapolis,United States,0.06566188883675865,24,22,Americas,2,2.5
+"Chicago, United States",Chicago,United States,0.07837719740112702,10,8,Americas,2,2.0
+"Colombo, Sri Lanka",Colombo,Sri Lanka,0.051525455187495045,40,38,Asia,4,4.0
+"Delhi [New Delhi], India",Delhi [New Delhi],India,0.25485759804772723,2,0,Asia,4,3.5
+"Mumbai, India",Mumbai,India,0.07120462941354207,22,20,Asia,4,3.5
+"Karachi, Pakistan",Karachi,Pakistan,0.8011443690023947,2,0,Asia,4,3.5526315789473686
+"Kabul, Afghanistan",Kabul,Afghanistan,0.5619348930233355,2,0,Asia,4,3.6052631578947367
+"Tehran, Iran",Tehran,Iran,0.6553134743371726,2,0,Asia,4,3.6578947368421053
+"Nur-Sultan, Kazakhstan",Nur-Sultan,Kazakhstan,0.21107598482438578,4,2,Asia,4,3.5
+"Dubai, United Arab Emirates",Dubai,United Arab Emirates,0.9194887547552278,2,0,Asia,4,3.7105263157894735
+"Riyadh, Saudi Arabia",Riyadh,Saudi Arabia,0.9503294877964009,2,0,Asia,4,3.763157894736842
+"Sana'a, Yemen",Sana'a,Yemen,0.8934675698016029,2,0,Asia,4,3.8157894736842106
+"Baku, Azerbaijan",Baku,Azerbaijan,0.482748053987429,2,0,Asia,4,3.8684210526315788
+"Baghdad, Iraq",Baghdad,Iraq,0.818284163863449,2,0,Asia,4,3.9210526315789473
+"Tashkent, Uzbekistan",Tashkent,Uzbekistan,0.3895462896665151,2,0,Asia,4,3.973684210526316
+"Dhaka, Bangladesh",Dhaka,Bangladesh,0.24512917127220366,2,0,Asia,4,4.026315789473684
+"Yangon, Myanmar",Yangon,Myanmar,0.09060051709255602,22,20,Asia,4,4.5
+"Xi'an, China",Xi'an,China,0.2536722546524148,4,2,Asia,4,3.7
+"Osaka [Kyoto], Japan",Osaka [Kyoto],Japan,0.5664822144500107,2,0,Asia,4,4.078947368421053
+"Quezon City [Manila], Philippines",Quezon City [Manila],Philippines,0.11892226747416428,2,0,Asia,4,4.131578947368421
+"Hiroshima, Japan",Hiroshima,Japan,0.31862178087405674,2,0,Asia,4,4.184210526315789
+"Busan, South Korea",Busan,South Korea,0.25150147077160384,2,0,Asia,4,4.2368421052631575
+"Shanghai, China",Shanghai,China,0.1705633265650686,6,4,Asia,4,3.5
+"Seoul, South Korea",Seoul,South Korea,0.26215015105273753,2,0,Asia,4,4.2894736842105265
+"Hong Kong, China",Hong Kong,China,0.08664634840670672,12,10,Asia,4,3.5
+"Zhuhai, China",Zhuhai,China,0.1769522716054958,4,2,Asia,4,3.9
+"Pyongyang, North Korea",Pyongyang,North Korea,0.5453103455299029,2,0,Asia,4,4.342105263157895
+"Guangzhou, China",Guangzhou,China,0.1624539002822603,4,2,Asia,4,4.1
+"Jakarta, Indonesia",Jakarta,Indonesia,0.1084079526149355,8,6,Asia,4,3.5
+"Singapore, Singapore",Singapore,Singapore,0.13074650247436492,12,10,Asia,4,4.0
+"Kuala Lumpur, Malaysia",Kuala Lumpur,Malaysia,0.11575022986753727,8,6,Asia,4,4.0
+"Hanoi, Vietnam",Hanoi,Vietnam,0.209611307070939,6,4,Asia,4,4.0
+"Bangkok, Thailand",Bangkok,Thailand,0.16466310096098813,10,8,Asia,4,3.5
+"Beijing, China",Beijing,China,0.11161919073556167,12,10,Asia,4,4.5
+"Chongqing, China",Chongqing,China,0.09398319919618582,16,14,Asia,4,4.0
+"Mandalay, Myanmar",Mandalay,Myanmar,0.11857618349400957,8,6,Asia,4,4.5
+"Amman, Jordan",Amman,Jordan,0.8880393315436971,2,0,Asia,4,4.394736842105263
+"Cebu City, Philippines",Cebu City,Philippines,0.07938580818874254,10,8,Asia,4,4.5
+"Beirut, Lebanon",Beirut,Lebanon,0.24490766422848143,6,4,Asia,4,4.5
+"Tokyo, Japan",Tokyo,Japan,0.3666942949809256,2,0,Asia,4,4.447368421052632
+"Nicosia, Cyprus",Nicosia,Cyprus,0.3232304192676265,4,2,Asia,4,4.3
+"Ankara, Turkey",Ankara,Turkey,0.2640168670603116,4,2,Asia,4,4.5
+"Damascus, Syria",Damascus,Syria,0.7622255998484265,2,0,Asia,4,4.5
+"Sarajevo, Bosnia and Herzegovina",Sarajevo,Bosnia and Herzegovina,0.1495644437083231,18,16,Europe,6,5.5
+"Budapest, Hungary",Budapest,Hungary,0.09581724120211102,22,20,Europe,6,5.5
+"Bratislava, Slovakia",Bratislava,Slovakia,0.1640999741813116,22,20,Europe,6,5.833333333333333
+"Valletta, Malta",Valletta,Malta,0.35368002577288143,2,0,Europe,6,5.5
+"Zagreb, Croatia",Zagreb,Croatia,0.15938710300943262,10,8,Europe,6,5.5
+"Vienna, Austria",Vienna,Austria,0.11189368430977618,6,4,Europe,6,5.5
+"Ljubljana, Slovenia",Ljubljana,Slovenia,0.1443726418092511,10,8,Europe,6,5.7
+"Prague, Czech Republic",Prague,Czech Republic,0.11186080398518133,18,16,Europe,6,5.833333333333333
+"Rome, Italy",Rome,Italy,0.17138474429749237,6,4,Europe,6,5.833333333333333
+"Berlin, Germany",Berlin,Germany,0.0857813995992488,26,24,Europe,6,6.0
+"Copenhagen, Denmark",Copenhagen,Denmark,0.11947054527728003,10,8,Europe,6,5.9
+"Oslo, Norway",Oslo,Norway,0.09087257549616967,14,12,Europe,6,6.0
+"Bern, Switzerland",Bern,Switzerland,0.1407161422983992,18,16,Europe,6,6.166666666666667
+"Luxembourg, Luxembourg",Luxembourg,Luxembourg,0.14631453888601514,12,10,Europe,6,5.5
+"Stockholm, Sweden",Stockholm,Sweden,0.07091813510302697,30,28,Europe,6,6.0
+"Warsaw, Poland",Warsaw,Poland,0.11746546515448418,20,18,Europe,6,6.0
+"Tallinn, Estonia",Tallinn,Estonia,0.10802696286608139,10,8,Europe,6,6.1
+"Riga, Latvia",Riga,Latvia,0.08414079815822106,22,20,Europe,6,6.166666666666667
+"Brussels, Belgium",Brussels,Belgium,0.13905414433799765,8,6,Europe,6,5.5
+"Reykjavik, Iceland",Reykjavik,Iceland,0.19188176892828002,6,4,Europe,6,6.166666666666667
+"Lisbon, Portugal",Lisbon,Portugal,0.2391972720215732,6,4,Europe,6,6.5
+"Dublin, Ireland",Dublin,Ireland,0.12491190403083557,16,14,Europe,6,5.5
+"Madrid, Spain",Madrid,Spain,0.16643732584571555,4,2,Europe,6,6.0
+"Moscow, Russia",Moscow,Russia,0.05423887675412278,36,34,Europe,6,6.0
+"Paris, France",Paris,France,0.10398697992841839,12,10,Europe,6,5.833333333333333
+"Kyiv, Ukraine",Kyiv,Ukraine,0.11765078875420495,12,10,Europe,6,6.166666666666667
+"Bucharest, Romania",Bucharest,Romania,0.1308626441831405,8,6,Europe,6,6.5
+"Athens, Greece",Athens,Greece,0.29241278270356397,2,0,Europe,6,6.0
+"Sofia, Bulgaria",Sofia,Bulgaria,0.10932214627919257,18,16,Europe,6,6.5
+"Vilnius, Lithuania",Vilnius,Lithuania,0.09735206368031618,10,8,Europe,6,6.3
+"Skopje, Macedonia",Skopje,Macedonia,0.17947444150842878,10,8,Europe,6,6.5
+"Tirana, Albania",Tirana,Albania,0.3814307629544758,2,0,Europe,6,6.5
+"Belgrade, Serbia",Belgrade,Serbia,0.10105706831382813,22,20,Europe,6,6.5
+"Helsinki, Finland",Helsinki,Finland,0.07175008573591134,12,10,Europe,6,6.5
+"Amsterdam, Netherlands",Amsterdam,Netherlands,0.13140222040072827,16,14,Europe,6,6.5
