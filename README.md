@@ -92,10 +92,6 @@ To capture this nuance, we decided to measure  _how green are the areas in which
 
 Using this method, we could detect how many people were living in areas with different levels of tree coverage. For example, in Dhaka (Bangladesh), a quarter of the population lives in hexagons with a tree coverage below 2%, while in Mumbai (India) most of the population lives in areas with over 10% tree coverage.
 
-The results for all the cities analyzed can be seen in the image below.
-
-
-
 In some charts, when representing each city's overall tree coverage, we used the mode of the distribution – that is, the level of tree coverage where the highest proportion of a city's population resides. This modal tree coverage also guided the selection of satellite imagery and street-level pictures used in the article.
 
 
