@@ -38,7 +38,7 @@ The analysis relies in two datasets that use satellite imagery and machine learn
 
 Instead of providing aggregate metrics by city, they display which *points* of the planet are covered by trees or not, with metric precision. 
 
-- The [first daset](https://langnico.github.io/globalcanopyheight/) was published by researchers at ETH Zurich, University of Zurich, University of Copenhagen, and Yale University. It uses satellite images from 2020 and detects tree coverage with a 10m resolution – that is, detects whether a 10m square is covered by a tree or not.
+- The [first dataset](https://langnico.github.io/globalcanopyheight/) was published by researchers at ETH Zurich, University of Zurich, University of Copenhagen, and Yale University. It uses satellite images from 2020 and detects tree coverage with a 10m resolution – that is, detects whether a 10m square is covered by a tree or not.
 
 - The [second dataset](https://sustainability.atmeta.com/blog/2024/04/22/using-artificial-intelligence-to-map-the-earths-forests/) was published by researchers at social media company Meta, in partnership with the World Resources Institute. It uses a similar method, but has a finer 1m resolution that allows more accurate area estimation.
 
