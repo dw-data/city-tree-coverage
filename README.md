@@ -2,7 +2,7 @@
 
 This repository contains the source code and data behind the following DW story:
 
-- [How green are Asia's cities?]([#](https://www.dw.com/en/how-green-are-asias-cities/a-70660037)).
+- [How green are Asia's cities?]((https://www.dw.com/en/how-green-are-asias-cities/a-70660037).
 
 ---
 
