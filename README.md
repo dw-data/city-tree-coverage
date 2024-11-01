@@ -2,7 +2,7 @@
 
 This repository contains the source code and data behind the following DW story:
 
-- [Link A](#).
+- [How green are Asia's cities?]([#](https://www.dw.com/en/how-green-are-asias-cities/a-70660037)).
 
 ---
 
@@ -10,7 +10,7 @@ This repository contains the source code and data behind the following DW story:
 
 **Development, data analysis, and visualization:** Rodrigo Menegat Schuinski
 **Reporting and writing:** Emmy Sasipornkarn Srimingkwanchai
-**Editing:** Gianna Grün, Rodion Ebbighausen, Anke Rasper
+**Editing:** Anke Rasper, Gianna Grün, Rodion Ebbighausen, Wesley Rahn
 
 ---
 
