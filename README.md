@@ -10,7 +10,7 @@ This repository contains the source code and data behind the following DW story:
 
 **Development, data analysis, and visualization:** Rodrigo Menegat Schuinski
 **Reporting and writing:** Emmy Sasipornkarn Srimingkwanchai
-**Editing:** Gianna Grün, Rodion Ebbighausen, Tamsin Walker
+**Editing:** Gianna Grün, Rodion Ebbighausen, Anke Rasper
 
 ---
 
